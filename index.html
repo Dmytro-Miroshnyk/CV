@@ -21,9 +21,10 @@
         <section class="hero">
             <div class="container">
                 <h2 class="title hero__sub-title">Front-End Developer</h2>
-                <img class="hero__image" src="/images/image.jpg" alt="my face" width="300">
+                <img class="hero__image" src="./images/image.jpg" alt="my face" width="300">
                 <h1 class="title hero__title">Dmytro Miroshnyk</h1>
-                <p class="text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
+                <p class="text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                    incididunt ut labore
                     et dolore magna
                     aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel
                     facilisis.</p>
@@ -35,15 +36,19 @@
                 <address class="adress">
                     <ul class="list adress__list">
                         <li class="adress__list-item"><a class="link adress__list-link"
-                                href="mailto:4g63tm@gmail.com"><svg class="" width="24" height="24">
+                                href="mailto:4g63tm@gmail.com"><svg class="adress__svg" width="24" height="24">
                                     <use href="./images/icons.svg#icon-email"></use>
-                                </svg>4g63tm@gmail.com</a></li>
+                                </svg>
+                                <p class="link-text">4g63tm@gmail.com</p>
+                            </a></li>
                         <li class="adress__list-item"><a class="link adress__list-link" href="tel:+380502590777"><svg
-                                    class="team-socials-svg" width="24" height="24">
+                                    class="adress__svg" width="24" height="24">
                                     <use href="./images/icons.svg#icon-tel"></use>
-                                </svg>+38
-                                (050)
-                                259-07-77</a></li>
+                                </svg>
+                                <p class="link-text">+38
+                                    (050)
+                                    259-07-77</p>
+                            </a></li>
                     </ul>
                     <ul class="adress__socials-list">
                         <li class="adress__socials-list-item">
@@ -82,44 +87,72 @@
             <div class="container">
                 <h2 class="visually-hidden">Skills</h2>
                 <ul class="skills__list">
-                    <ul>
-                        <h3 class="title">Tech Skills</h3>
-                        <li class="list-item">
-                            <p class="text">HTML5</p>
-                        </li>
-                        <li class="list-item">
-                            <p class="text">CSS3</p>
-                        </li>
-                        <li class="list-item">
-                            <p class="text">GIT</p>
-                        </li>
-                        <li class="list-item">
-                            <p class="text">JavaScript (in progress)</p>
-                        </li>
-                    </ul>
-                    <ul>
-                        <h3 class="title">Soft Skills</h3>
-                        <li class="list-item">
-                            <p class="text">Scrum</p>
-                        </li>
-                        <li class="list-item">
-                            <p class="text">Agile</p>
-                        </li>
-                        <li class="list-item">
-                            <p class="text">Teamwork</p>
-                        </li>
-                    </ul>
+                    <li class="list">
+                        <div>
+                            <h3 class="title">Tech Skills</h3>
+                            <ul>
+                                <li class="list-item">
+                                    <p class="text">HTML5</p>
+                                </li>
+                                <li class="list-item">
+                                    <p class="text">CSS3</p>
+                                </li>
+                                <li class="list-item">
+                                    <p class="text">GIT</p>
+                                </li>
+                                <li class="list-item">
+                                    <p class="text">Figma</p>
+                                </li>
+                                <li class="list-item">
+                                    <p class="text">JavaScript (in progress)</p>
+                                </li>
+                                <li class="list-item">
+                                    <p class="text">React (in progress)</p>
+                                </li>
+                                <li class="list-item">
+                                    <p class="text">Node.js (in progress)</p>
+                                </li>
+                                <li class="list-item">
+                                    <p class="text">React Native (in progress)</p>
+                                </li>
+                            </ul>
+                        </div>
+                    </li>
+                    <li class="list">
+                        <div>
+                            <h3 class="title">Soft Skills</h3>
+                            <ul>
+                                <li class="list-item">
+                                    <p class="text">Scrum</p>
+                                </li>
+                                <li class="list-item">
+                                    <p class="text">Agile</p>
+                                </li>
+                                <li class="list-item">
+                                    <p class="text">Teamwork</p>
+                                </li>
+                            </ul>
+                        </div>
+                    </li>
                 </ul>
             </div>
         </section>
         <section class="projects">
             <div class="container">
                 <h2 class="title">Projects</h2>
-                <ol>
-                    <li><a href="https://dmytro-miroshnyk.github.io/goit-new-markup-hw-06/">Індивідуальний проект</a></li>
-                    <li><a href="https://l-dmitry94.github.io/Battle-Frogs/">Командний проект</a> </li>
-                    <li><a href="">Моє резюме</a></li>
-                    <li>In progress... :)</li>
+                <ol class="list">
+                    <li><a class="link" href="https://dmytro-miroshnyk.github.io/goit-new-markup-hw-06/">
+                            <p class="link-text">Індивідуальний проект</p>
+                        </a></li>
+                    <li><a class="link" href="https://l-dmitry94.github.io/Battle-Frogs/">
+                            <p class="link-text">Командний проект</p>
+                        </a> </li>
+                    <li><a class="link" href="https://dmytro-miroshnyk.github.io/CV/">
+                            <p class="link-text">Моє резюме</p>
+                        </a></li>
+                    <li>
+                        <p class="future-link">In progress... :)</p>
+                    </li>
                 </ol>
             </div>
         </section>
@@ -134,15 +167,18 @@
                     </li>
                     <li class="list-item">
                         <h4 class="list-title">Trade representative <span class="brand">Virok</span> </h4>
-                        <p class="period">October 2019 - February 2020<span class="divider"> | </span>Kropyvnytskyi, Ukraine</p>
+                        <p class="period">October 2019 - February 2020<span class="divider"> | </span>Kropyvnytskyi,
+                            Ukraine</p>
                     </li>
                     <li class="list-item">
                         <h4 class="list-title">Taxi driver <span class="brand">Shark taxi</span></h4>
-                        <p class="period">July 2017 - October 2019<span class="divider"> | </span>Kropyvnytskyi, Ukraine</p>
+                        <p class="period">July 2017 - October 2019<span class="divider"> | </span>Kropyvnytskyi, Ukraine
+                        </p>
                     </li>
                     <li class="list-item">
                         <h4 class="list-title">Police officer <span class="brand">National Police of Ukraine</span></h4>
-                        <p class="period">September 2014 - June 2017<span class="divider"> | </span>Kropyvnytskyi, Ukraine</p>
+                        <p class="period">September 2014 - June 2017<span class="divider"> | </span>Kropyvnytskyi,
+                            Ukraine</p>
                     </li>
                 </ul>
             </div>
@@ -153,16 +189,19 @@
                 <ul>
                     <li class="list-item">
                         <h4 class="list-title">Courses <span class="brand">GoIT</span></h4>
-                        <p class="period">June 2023 - up to now<span class="divider"> | </span>Kropyvnytskyi, Ukraine</p>
+                        <p class="period">June 2023 - up to now<span class="divider"> | </span>Kropyvnytskyi, Ukraine
+                        </p>
                     </li>
                     <li class="list-item">
                         <h4 class="list-title">Academy <span class="brand">National Academy of Internal Affairs</span>
                         </h4>
-                        <p class="period">September 2007 - February 2013<span class="divider"> | </span>Kyiv, Ukraine</p>
+                        <p class="period">September 2007 - February 2013<span class="divider"> | </span>Kyiv, Ukraine
+                        </p>
                     </li>
                     <li class="list-item">
                         <h4 class="list-title">School <span class="brand">32</span></h4>
-                        <p class="period">September 1997 - July 2007<span class="divider"> | </span>Kropyvnytskyi, Ukraine</p>
+                        <p class="period">September 1997 - July 2007<span class="divider"> | </span>Kropyvnytskyi,
+                            Ukraine</p>
                     </li>
                 </ul>
             </div>
