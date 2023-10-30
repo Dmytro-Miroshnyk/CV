@@ -72,9 +72,10 @@ img {
 }
 
 .title {
+    display: flex;
     font-size: 25px;
     color: var(--title-color);
-    text-align: center;
+    justify-content: center;
     margin-bottom: 10px;
 }
 
@@ -236,6 +237,10 @@ img {
 .skills__list {
     display: flex;
     gap: 25px;
+}
+
+.skills__list-item {
+    width: calc((100% - 25px) / 2);
 }
 
 /* Projects */
