@@ -22,6 +22,10 @@
         max-width: 766px;
     }
 
+    .hero__text {
+        padding: 0 70px;
+    }
+
     .adress {
         gap: 70px;
     }
@@ -31,6 +35,22 @@
         justify-content: center;
     }
 
+
+
+    .work__list {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        column-gap: 24px;
+        padding-left: 70px;
+    }
+
+    .education__list {
+        padding-left: 70px;
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1158px) {
     .projects__list {
         display: flex;
         flex-direction: row;
@@ -43,21 +63,9 @@
     }
 
     .projects__list-item {
+        width: calc((100% - 30px) / 2);
         display: flex;
         justify-content: center;
-
-    }
-
-    .work__list {
-        display: flex;
-        flex-direction: row;
-        flex-wrap: wrap;
-        column-gap: 24px;
-        padding-left: 70px;
-    }
-
-    .education__list {
-        padding-left: 70px;
     }
 }
 
@@ -98,6 +106,12 @@
         background-color: transparent;
     }
 
+    .projects__list {
+        padding-left: 70px;
+    }
+
+    .projects__list-item {}
+
     .adress {
         flex-direction: column;
         justify-content: left;
@@ -111,15 +125,15 @@
     .adress__list-item {}
 
     .adress__socials-list {
-        justify-content: left;
+
         margin: 0;
     }
 
     .title-side {
         color: var(--white-background-color);
-
         margin-left: auto;
         margin-right: auto;
+        width: 270px;
     }
 
     .skills__list {
@@ -128,10 +142,7 @@
 
     .skills__list-item {
         justify-content: left;
-        width: auto;
+        width: 270px;
     }
 
-    .skills__wrap {
-        width: 400px;
-    }
 }

@@ -84,6 +84,7 @@ img {
     color: var(--title-color);
     justify-content: center;
     margin-bottom: 10px;
+    min-width: 200px;
 }
 
 .list-title {
@@ -256,12 +257,6 @@ img {
 .projects {
     padding-top: 25px;
     padding-bottom: 25px;
-}
-
-.projects__list-item {
-
-    width: calc((100% - 30px) / 2);
-
 }
 
 .future-link {
