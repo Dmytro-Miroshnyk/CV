@@ -22,6 +22,12 @@
         max-width: 766px;
     }
 
+    .navigation {
+        position: absolute;
+        margin-top: 30px;
+        margin-left: 100px;
+    }
+
     .hero__text {
         padding: 0 70px;
     }
@@ -72,6 +78,13 @@
 @media screen and (min-width: 1158px) {
     .container {
         max-width: 1158px;
+    }
+
+    .navigation {
+        position: absolute;
+        margin-top: 20px;
+        margin-left: 280px;
+        font-size: 25px;
     }
 
     .main-section {

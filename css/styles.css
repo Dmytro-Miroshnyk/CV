@@ -143,6 +143,16 @@ img {
     letter-spacing: 0.02em;
 }
 
+/* Header*/
+.container__header {
+    position: relative;
+}
+
+.navigation {
+    position: absolute;
+    margin-top: 30px;
+}
+
 /* Hero */
 .hero {
     background-color: #f5f7fa;
@@ -250,9 +260,9 @@ img {
 .skills__list-item {
     width: calc((100% - 25px) / 2);
 }
-.skills__title {
-    
-}
+
+.skills__title {}
+
 /* Projects */
 .projects {
     padding-top: 25px;
