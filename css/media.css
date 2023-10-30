@@ -1,3 +1,15 @@
+:root {
+    --primary-font: "Montserrat", sans-serif;
+    --primary-brand-color: #fb6d3a;
+    --contact-color: #565e6a;
+    --title-color: #000;
+    --sub-title-color: #a8a8a8;
+    --text-color: #595959;
+    --background-color: #f5f7fa;
+    --white-background-color: #ffffff;
+    --side-background-color: #1e2939;
+}
+
 @media screen and (min-width: 428px) {
     .container {
         max-width: 426px;
@@ -9,10 +21,117 @@
     .container {
         max-width: 766px;
     }
+
+    .adress {
+        gap: 70px;
+    }
+
+    .skills__list-item {
+        display: flex;
+        justify-content: center;
+    }
+
+    .projects__list {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        row-gap: 10px;
+        column-gap: 24px;
+        justify-content: center;
+        align-items: center;
+        list-style-type: decimal;
+    }
+
+    .projects__list-item {
+        display: flex;
+        justify-content: center;
+
+    }
+
+    .work__list {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        column-gap: 24px;
+        padding-left: 70px;
+    }
+
+    .education__list {
+        padding-left: 70px;
+    }
 }
 
 @media screen and (min-width: 1158px) {
     .container {
         max-width: 1158px;
+    }
+
+    .main-section {
+        display: flex;
+        flex-direction: row-reverse;
+        max-width: 1200px;
+    }
+
+    .hidden-on-desktop {
+        display: none;
+    }
+
+    aside .link {
+        color: var(--white-background-color);
+    }
+
+    aside .list-item {
+        color: var(--primary-brand-color);
+        margin-left: 30px;
+    }
+
+    aside .text {
+        color: var(--white-background-color);
+    }
+
+    .sidebar {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .hero {
+        background-color: transparent;
+    }
+
+    .adress {
+        flex-direction: column;
+        justify-content: left;
+        gap: 30px;
+    }
+
+    .adress__list {
+        margin-left: 30px;
+    }
+
+    .adress__list-item {}
+
+    .adress__socials-list {
+        justify-content: left;
+        margin: 0;
+    }
+
+    .title-side {
+        color: var(--white-background-color);
+
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .skills__list {
+        flex-direction: column;
+    }
+
+    .skills__list-item {
+        justify-content: left;
+        width: auto;
+    }
+
+    .skills__wrap {
+        width: 400px;
     }
 }

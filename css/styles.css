@@ -47,6 +47,13 @@ img {
 }
 
 .main-section {
+
+    background: #fff;
+    margin: 40px auto;
+    box-shadow: 6px 6px 20px rgba(0, 0, 0, 0.1);
+}
+
+.main-content-section {
     margin: 40px 10px;
 }
 
@@ -242,11 +249,19 @@ img {
 .skills__list-item {
     width: calc((100% - 25px) / 2);
 }
-
+.skills__title {
+    
+}
 /* Projects */
 .projects {
     padding-top: 25px;
     padding-bottom: 25px;
+}
+
+.projects__list-item {
+
+    width: calc((100% - 30px) / 2);
+
 }
 
 .future-link {
@@ -263,4 +278,10 @@ img {
 .education {
     padding-top: 25px;
     padding-bottom: 25px;
+}
+
+.sidebar {
+    display: none;
+    background-color: var(--side-background-color);
+    max-width: 370px;
 }
