@@ -119,9 +119,6 @@
     .projects__list {
         padding-left: 70px;
     }
-
-    .projects__list-item {}
-
     .adress {
         flex-direction: column;
         justify-content: left;
@@ -129,10 +126,9 @@
     }
 
     .adress__list {
-        margin-left: 30px;
+        margin-left: auto;
+        margin-right: auto;
     }
-
-    .adress__list-item {}
 
     .adress__socials-list {
 

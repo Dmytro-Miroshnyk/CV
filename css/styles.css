@@ -53,8 +53,6 @@ img {
     box-shadow: 6px 6px 20px rgba(0, 0, 0, 0.1);
 }
 
-.main-content-section {}
-
 .container {
     width: 100%;
     padding-left: 25px;
@@ -264,8 +262,6 @@ img {
 .skills__list-item {
     width: calc((100% - 15px) / 2);
 }
-
-.skills__title {}
 
 /* Projects */
 .projects {
