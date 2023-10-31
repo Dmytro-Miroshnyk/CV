@@ -36,23 +36,20 @@
         gap: 70px;
     }
 
-    .skills__list-item {
-        display: flex;
-        justify-content: center;
+    .skills__list {
+        padding: 0 70px;
     }
-
-
 
     .work__list {
         display: flex;
         flex-direction: row;
         flex-wrap: wrap;
         column-gap: 24px;
-        padding-left: 70px;
+        padding: 0 70px;
     }
 
     .education__list {
-        padding-left: 70px;
+        padding: 0 70px;
     }
 }
 
@@ -151,6 +148,7 @@
 
     .skills__list {
         flex-direction: column;
+        padding: 0;
     }
 
     .skills__list-item {

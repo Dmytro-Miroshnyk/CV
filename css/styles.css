@@ -53,11 +53,16 @@ img {
     box-shadow: 6px 6px 20px rgba(0, 0, 0, 0.1);
 }
 
-.main-content-section {
-    margin: 40px 10px;
-}
+.main-content-section {}
 
 .container {
+    width: 100%;
+    padding-left: 25px;
+    padding-right: 25px;
+    margin: 0 auto;
+}
+
+.side__container {
     width: 100%;
     padding-left: 15px;
     padding-right: 15px;
@@ -80,11 +85,10 @@ img {
 
 .title {
     display: flex;
-    font-size: 25px;
+    font-size: 20px;
     color: var(--title-color);
     justify-content: center;
     margin-bottom: 10px;
-    min-width: 200px;
 }
 
 .list-title {
@@ -150,23 +154,23 @@ img {
 
 .navigation {
     position: absolute;
-    margin-top: 30px;
+    margin-top: 15px;
 }
 
 /* Hero */
 .hero {
     background-color: #f5f7fa;
-    padding-top: 25px;
+    padding-top: 45px;
     padding-bottom: 25px;
 }
 
-.hero__title {
+.hero__title {}
+
+.hero__sub-title {
     text-align: center;
     font-size: 38px;
     margin: 15px auto;
 }
-
-.hero__sub-title {}
 
 .hero__image {
     margin-left: auto;
@@ -254,11 +258,11 @@ img {
 
 .skills__list {
     display: flex;
-    gap: 25px;
+    gap: 35px;
 }
 
 .skills__list-item {
-    width: calc((100% - 25px) / 2);
+    width: calc((100% - 15px) / 2);
 }
 
 .skills__title {}
