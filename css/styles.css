@@ -111,7 +111,7 @@ img {
     list-style: none;
     text-decoration: none;
     color: var(--sub-title-color);
-    transition: color 250ms cubic-bezier(1, 0, 0.2, 1);
+    transition: color 250ms linear;
 }
 
 .link-text {
@@ -193,9 +193,7 @@ img {
     justify-content: center;
 }
 
-.adress__list-item {
-    transition: background-color 1000ms cubic-bezier(1, 0, 0.2, 1);
-}
+
 
 .adress__svg {
     position: absolute;
@@ -203,12 +201,19 @@ img {
     left: 0%;
     transform: translate(-100%, -50%);
     fill: currentColor;
+
 }
 
 .adress__list-link {
     text-decoration: none;
     list-style-type: none;
     position: relative;
+    transition: color 250ms linear;
+}
+
+.adress__list-link:hover,
+.adress__list-link:focus {
+    color: var(--primary-brand-color);
 }
 
 .adress__socials-list {
@@ -237,8 +242,8 @@ img {
     background-color: var(--sub-title-color);
     border-radius: 50%;
     cursor: pointer;
-    transition: background-color 250ms cubic-bezier(1, 0, 0.2, 1),
-        transform 250ms cubic-bezier(1, 0, 0.2, 1);
+    transition: background-color 250ms linear,
+        transform 250ms linear;
 
 }
 
